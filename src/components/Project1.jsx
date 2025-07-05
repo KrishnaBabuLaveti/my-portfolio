@@ -3,12 +3,26 @@ import { motion } from "framer-motion";
 import wanderlust from "../assets/wanderlust.jpg";
 import miniproject from "../assets/miniproject.png";
 import movie_recommendation from "../assets/movie_recommendation.png";
-import spotify from "../assets/spotify.jpg";
+import facemask from "../assets/facemask.png";
 import powerBI from "../assets/powerBI.png";
 import servicenow from "../assets/servicenow.png";
 
 const Card = () => {
   const projects = [
+    {
+      title: "Face Mask Detection",
+      description:
+        "Face Mask Detection using CNN and OpenCV",
+      image: facemask,
+      link: "https://github.com/KrishnaBabuLaveti/fask-mask-detection-using-cnn",
+    },
+    {
+      title: "Movie Recommendation System",
+      description:
+        "A machine learning-based movie recommender built for personalized content suggestions.",
+      image: movie_recommendation,
+      link: "https://github.com/KrishnaBabuLaveti/Movie-Recommendation",
+    },
     {
       title: "Wanderlust - Rental Listing Platform",
       description:
@@ -23,13 +37,7 @@ const Card = () => {
       image: miniproject,
       link: "https://github.com/KrishnaBabuLaveti/Student-Project-Management",
     },
-    {
-      title: "Spotify Clone – Frontend Interface",
-      description:
-        "Responsive Spotify UI clone with sleek design and modern frontend stack.",
-      image: spotify,
-      link: "https://github.com/KrishnaBabuLaveti/Spotify-Clone",
-    },
+    
     {
       title: "Educational Organisation Using ServiceNow",
       description:
@@ -37,13 +45,7 @@ const Card = () => {
       image: servicenow,
       link: "https://github.com/KrishnaBabuLaveti/Educational-Organisation-Using-ServiceNow",
     },
-    {
-      title: "Movie Recommendation System",
-      description:
-        "A machine learning-based movie recommender built for personalized content suggestions.",
-      image: movie_recommendation,
-      link: "https://github.com/KrishnaBabuLaveti/Movie-Recommendation",
-    },
+    
     {
       title: "Election Data Dashboard – Andhra Pradesh Parliamentary Analysis",
       description:
